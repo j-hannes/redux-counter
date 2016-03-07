@@ -1,0 +1,25 @@
+{
+  "name": "redux-counter",
+  "version": "0.0.1",
+  "description": "Rebuild of https://github.com/reactjs/redux/tree/master/examples/counter.",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "cross-env NODE_ENV=test mocha --recursive --compilers js:babel-register --require ./test/setup.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/j-hannes/redux-counter.git"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "counter",
+    "example"
+  ],
+  "author": "j-hannes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/j-hannes/redux-counter/issues"
+  },
+  "homepage": "https://github.com/j-hannes/redux-counter#readme"
+}
